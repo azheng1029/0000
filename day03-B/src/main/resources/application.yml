@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev #激活指定的配置文件
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+---
+server:
+  port: 8084
+spring:
+  profiles: prod
